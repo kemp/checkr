@@ -3,10 +3,12 @@
 namespace Lyal\Checkr\Entities\Resources;
 
 use Lyal\Checkr\Client;
+use Lyal\Checkr\Traits\Creatable;
 use Lyal\Checkr\Traits\Deleteable;
 
 class Geo extends AbstractResource
 {
+    use Creatable;
     use Deleteable;
 
     /**
